@@ -1,0 +1,10 @@
+:root{--brand:#0b5ea8;--accent:#f98a1c}
+body{font-family:Inter,system-ui,Arial,Helvetica;margin:0;padding:0}
+.nav{display:flex;gap:12px;padding:12px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.container{padding:20px}
+.hero{height:320px;display:flex;align-items:center;justify-content:center;background:linear-gradient(90deg,var(--brand),#6fb5ff);color:#fff;position:relative;overflow:hidden}
+.hero img{height:220px;animation:float 6s ease-in-out infinite}
+@keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-12px)}100%{transform:translateY(0)}}
+.card{background:#fff;padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.08);}
+.form{display:grid;gap:8px;max-width:420px}
+.button{background:var(--accent);color:#fff;padding:8px 12px;border:none;border-radius:6px}
